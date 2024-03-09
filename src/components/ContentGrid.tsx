@@ -7,7 +7,7 @@ type Item = {
 } & OstDocument
 
 type Props = {
-  collection: 'posts' | 'projects' | 'resume'
+  collection: 'posts'
   title?: string
   items: Item[]
   priority?: boolean
@@ -40,11 +40,7 @@ const ContentGrid = ({
                     priority={priority && id <= 2}
                   />
                 )}
-                {collection === 'projects' && (
-                  <h2 className="p-2 bg-opacity-80 bg-white text-center whitespace-nowrap font-bold text-3xl absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 shadow-lg rounded-lg">
-                    {item.title}
-                  </h2>
-                )}
+
               </div>
               {collection === 'posts' && (
                 <div className="p-4">
@@ -67,14 +63,6 @@ const ContentGrid = ({
                   </p>
                 </div>
               )}
-              {collection === 'resume' && (
-                <div className="p-4">
-                  <h3 className="text-xl mb-2 leading-snug font-bold hover:underline">
-                    {item.title}
-                  </h3>
-                </div>
-              )}
-
             </div>
           </Link>
         ))}
