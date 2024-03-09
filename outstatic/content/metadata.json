@@ -1,0 +1,42 @@
+{
+  "commit": "36db2cc813fde44438d25a1a4be00d7617bf0a67",
+  "generated": "2024-03-09T09:33:51.140Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "eed8549e5ee105a1a424faa872171ede77bf46f5",
+        "hash": "653170108",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Evandro Ribeiro",
+        "picture": "https://github.com/ribeiroevandro.png"
+      },
+      "collection": "pages",
+      "coverImage": "/images/og-image-c3Nj.png",
+      "description": "A basic Next.js template with Outstatic configured, a CMS based on NextJS",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "36db2cc813fde44438d25a1a4be00d7617bf0a67",
+        "hash": "753272649",
+        "path": "outstatic/content/pages/sobre.md"
+      },
+      "author": {
+        "name": "Evandro Ribeiro",
+        "picture": "https://avatars.githubusercontent.com/u/943553?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Uma simples descrição",
+      "publishedAt": "2024-03-09T09:15:11.258Z",
+      "slug": "sobre",
+      "status": "published",
+      "title": "Sobre"
+    }
+  ]
+}
